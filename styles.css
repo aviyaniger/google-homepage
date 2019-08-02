@@ -1,0 +1,120 @@
+.main-wrapper {
+    text-align: center;
+    top: 200px;
+    position: relative;
+}
+
+.main {
+    display:inline-block;
+}
+
+.buttons {
+    position: relative;
+    left: 150px;
+}
+
+.buttons li{
+    float: left;
+    list-style: none;
+    margin: 7px;
+    padding: 10px;
+    color: rgb(116, 116, 116);
+    background-color: rgb(236, 233, 233);
+    border-radius: 8%;
+    font-size: 13px;
+    display: inline-block;
+}
+
+input {
+    height: 40px;
+    border-radius: 50px;
+    border: 1px solid rgb(236, 233, 233);
+    background-color: white;
+}
+
+.navigation-wrapper {
+    position: absolute;
+    right: 25px;
+    top: 5px;
+    font-size: 11px;
+}
+
+.navigation li {
+    float: left;
+    list-style: none;
+    margin: 0px;
+    padding: 11px;
+
+}
+
+
+footer li {
+    float: left;
+    list-style: none;
+    font-size: 13px;
+    padding: 10px;
+    color: gray;
+}
+
+.bottom-left {
+    padding: 0px 10px 0px 10px;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: rgb(248, 248, 248);
+    width: 50%;
+    margin-bottom: 0;
+    margin-top: 0;
+    border: 1px solid rgb(231, 231, 231);
+    border-right: none;
+    height: 50px;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+}
+
+.bottom-left ul {
+    padding: 0 0 20px 0;
+}
+
+.bottom-right {
+    background-color: rgb(248, 248, 248);
+    width: 50%;
+    padding: 0px 10px 0px 10px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    display: flex;
+    justify-content: right;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid rgb(231, 231, 231);
+    border-left: none;
+    height: 50px;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+}
+
+
+.location {
+    border: 1px solid rgb(231, 231, 231);
+    background-color: rgb(248, 248, 248);
+    position: fixed;
+    bottom: 40px;
+    left:0px;
+    width: 100%;
+    color: gray;
+    padding: 10px;
+    font-size: 15px;
+    font-family: arial, sans-serif;
+}
+
+h1 {
+    font-size: 17px;
+    padding-left: 10px;
+}
+
+.footer-wrapper {
+    position: fixed;
+    bottom: 0;
+    padding: 0;
+    margin: 0;
+}
